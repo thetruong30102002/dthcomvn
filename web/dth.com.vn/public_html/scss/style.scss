@@ -1,0 +1,114 @@
+/* ----------------------------------------------------------
+[Master Stylesheet]
+
+Template Name: Tixon - One Page Parallax Template
+Template Author: Theme-zome
+Version: 1.0.0
+
+[Table of Contents]
+    
+    * Google Fonts
+    * Include Third Party CSS Library
+        + Bootstrap CSS
+        + Animate CSS
+        + Barfilar CSS
+        + Animate Headline CSS
+        + Owl Carousel CSS
+        + Magnific Popup CSS
+        + Font Awesome CSS
+        + Material Icon CSS
+    * Template Mixins
+        + Flex
+        + Miscellaneous
+    * Template Responsive
+    * Template Variables
+    * Core Styles
+        + Reboot CSS
+        + Shortcodes CSS
+    * Components
+            + Reboot
+            + Spacing
+            + Preloader
+            + Scrool
+            + Heading
+            + Buttons
+            + Header
+            + Hero
+            + About
+            + Service
+            + Counter
+            + Breadcrumb
+            + Blog
+            + Clint
+            + Cta
+            + Price
+            + Offer
+            + Project
+            + Barfilar
+            + Gallery
+            + Sponsor
+            + Team
+            + Video
+            + Footer
+            
+----------------------------------------------------------
+[font-family]
+
+'Poppins',  sans-serif;
+'Roboto', sans-serif;
+
+--------------------------------------------------- */
+
+/* Import Fonts & All CSS */
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900&display=swap');
+@import 'css/bootstrap.min.css';
+@import 'css/animate.css';
+@import 'css/default-assets/classy-nav.css';
+@import 'css/default-assets/animated-headline.css';
+@import 'css/default-assets/spliting.css';
+@import 'css/owl.carousel.min.css';
+@import 'css/magnific-popup.css';
+@import 'css/font-awesome.min.css';
+@import 'css/material-design-iconic-font.min.css';
+@import 'css/style.css';
+
+// Utilities
+
+@import "utilities/fonts";
+@import "utilities/variables";
+@import "utilities/responsive";
+@import "utilities/color";
+
+// Mixins
+
+@import "mixins/flex";
+@import "mixins/miscellaneous";
+
+// Stylesheet
+
+@import "reboot";
+@import "spacing";
+@import "preloader";
+@import "heading";
+@import "scrool";
+@import "buttons";
+@import "header";
+@import "hero";
+@import "feature";
+@import "about";
+@import "service";
+@import "counter";
+@import "breadcrumb";
+@import "blog";
+@import "clint";
+@import "cta";
+@import "price";
+@import "offer";
+@import "project";
+@import "barfilar";
+@import "gallery";
+@import "video";
+@import "sponsor";
+@import "team";
+@import "footer";

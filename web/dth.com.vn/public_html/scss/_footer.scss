@@ -1,0 +1,43 @@
+/* :: Footer CSS */
+
+.footer-area {
+    background-color: $primary;
+
+    .copywrite-content {
+        padding: 50px 0;
+
+        .copywrite-text {
+            p {
+                color: $white;
+                font-size: 14px;
+                margin-bottom: 0;
+
+                a {
+                    color: $white;
+                }
+            }
+        }
+
+    }
+}
+
+.footer-social {
+    margin-bottom: 20px;
+
+    .list-unstyled {
+        li {
+            display: inline-block;
+
+            a {
+                color: $white;
+                margin: 0 10px;
+                font-size: 18px;
+                @include transition-duration(500ms);
+
+                &:hover {
+                    color: $hover;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,271 @@
+/* :: Reboot CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-weight: 400;
+    font-size: 15px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $font;
+    color: $heading;
+    line-height: 1;
+    font-weight: 600;
+
+}
+
+a,
+a:active,
+a:focus,
+a:hover {
+    color: $heading;
+    text-decoration: none;
+    @include transition-duration(500ms);
+    outline: none;
+    font-weight: 400;
+    font-family: $font;
+}
+
+li {
+    list-style: none;
+}
+
+p {
+    line-height: 1.8;
+    color: $text;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: $font;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+
+    li {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+.bg-overlay {
+    position: relative;
+    z-index: 1;
+
+    &::after {
+        position: absolute;
+        content: "";
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        background-color: rgba(255, 255, 255, 0.8);
+    }
+}
+
+.bg-overlay-white {
+    position: relative;
+    z-index: 1;
+
+    &::after {
+        position: absolute;
+        content: "";
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        background-color: rgba(255, 255, 255, 0.5);
+    }
+}
+
+.bg-overlay-2 {
+    position: relative;
+    z-index: 1;
+
+    &::after {
+        position: absolute;
+        content: "";
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        background-color: rgba(11, 21, 32, 0.6);
+    }
+}
+
+
+.bg-gradient-overlay-2 {
+    position: relative;
+    z-index: 1;
+
+    &::after {
+        border-radius: 10px;
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        background: rgba(0, 0, 0, 0.6);
+        background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.8)), color-stop(30%, rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0)));
+        background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0) 100%);
+        background: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0) 100%);
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0) 100%);
+    }
+}
+
+.bg-img {
+    background-position: center center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+}
+
+.jarallax {
+    position: relative;
+    z-index: 0;
+
+    > .jarallax-img {
+        position: absolute;
+        object-fit: cover;
+        font-family: 'object-fit: cover';
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+    }
+}
+
+.bg-boxshadow {
+    @include box-shadow(0 5px 20px 9px rgba(0, 0, 0, 0.07));
+}
+
+.mfp-image-holder .mfp-close,
+.mfp-iframe-holder .mfp-close {
+    position: fixed;
+    z-index: 100;
+    color: $white;
+    right: 20px;
+    text-align: center;
+    padding-right: 0;
+    width: 100%;
+    top: 20px;
+    width: 30px;
+    background: $hover;
+    height: 30px;
+    line-height: 30px;
+    opacity: 1;
+    cursor: pointer;
+}
+
+img.mfp-img {
+    @include box-shadow($box-shadow);
+}
+
+button.mfp-close,
+button.mfp-arrow {
+    background: $hover;
+}
+
+.mfp-bottom-bar {
+    display: none !important;
+}
+
+.mfp-bg {
+    background-color: $dark;
+}
+
+.bg-transparent {
+    background-color: transparent !important;
+}
+
+.bg-gray {
+    background-color: $bg-gray !important;
+}
+
+.bg-fixed {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+}
+
+textarea:focus,
+input:focus {
+    outline: none;
+}
+
+textarea:invalid,
+input:invalid,
+textarea:required,
+input:required {
+    box-shadow: none !important;
+}
+
+.border {
+    border-color: $border;
+}
+
+.mfp-arrow-left::after {
+    border-right-color: transparent;
+}
+
+.mfp-arrow-left::before {
+    border-right-color: $white;
+}
+
+.mfp-arrow-right::after {
+    border-left-color: transparent;
+}
+
+.mfp-arrow-right::before {
+    border-left-color: $white;
+}
+
+.float-right {
+    float: right !important;
+}
+
+.height-900 {
+    height: 900px !important;
+}
+
+.text--primary {
+    color: $primary !important;
+}
+
+.font-16 {
+    font-size: 16px;
+}
+
+.contact-our-area {
+    background-color: $bg-gray;
+}
+
+.p-30 {
+    padding: 30px;
+}
+
+.font-18 {
+    font-size: 18px !important;
+}

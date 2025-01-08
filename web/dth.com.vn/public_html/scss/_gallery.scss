@@ -1,0 +1,94 @@
+/* :: Gallery Area CSS */
+
+.our-gallery-area {
+    .portfolio-menu button {
+        line-height: 1;
+        background-color: transparent;
+        font-size: 15px;
+        font-weight: 500;
+        text-transform: uppercase;
+        padding: 10px 25px;
+        border-radius: 30px;
+        margin: 5px;
+        color: $primary;
+        border: 1px solid #fff;
+         @include transition-duration(400ms);
+    }
+
+    .portfolio-menu button.active {
+        border-color:  $primary;
+    }
+
+    .single_gallery_item {
+        margin-bottom: 50px;
+        overflow: hidden;
+
+        .gallery-content {
+            position: relative;
+            z-index: 1;
+            @include transition-duration(1000ms);
+
+            .gallery-hover-overlay {
+                position: absolute;
+                z-index: 22;
+                top: -300px;
+                left: 0;
+                background-color: $primary;
+                opacity: 0;
+                height: 100%;
+                width: 100%;
+                @include transition-duration(700ms);
+
+                .port-more-view {
+                    position: absolute;
+                    z-index: 99;
+                    top: 50%;
+                    left: 50%;
+                    @include transform(translate(-50%, -50%));
+
+                    .port-icon {
+                        a {
+                            background-color: $white;
+                            height: 40px;
+                            width: 40px;
+                            border-radius: 50%;
+                            display: inline-block;
+                            text-align: center;
+                            line-height: 40px;
+                        }
+                    }
+                }
+            }
+        }
+
+        &:hover {
+            .gallery-content {
+                .gallery-hover-overlay {
+                    opacity: 0.80;
+                    top: 0;
+                }
+            }
+        }
+
+    }
+
+    .port-text {
+        text-align: center;
+        margin-top: 20px;
+
+        h4 {
+            font-size: 18px;
+        }
+
+        h6 {
+            font-size: 14px;
+            margin-bottom: 0;
+            font-weight: 400;
+            color: $text;
+        }
+    }
+}
+
+button.mfp-arrow {
+    display: none;
+}

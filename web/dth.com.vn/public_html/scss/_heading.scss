@@ -1,0 +1,30 @@
+/* :: Heading CSS */
+
+.heading-title {
+    margin-bottom: 50px;
+
+    h2 {
+        color: $heading;
+        text-transform: capitalize;
+        font-size: 34px;
+        line-height: 1;
+        margin-bottom: 10px;
+
+        @media #{$breakpoint-xs} {
+            font-size: 30px;
+        }
+    }
+
+    p {
+        max-width: 750px;
+        margin: 0 auto;
+        font-size: 17px;
+        text-transform: capitalize;
+        font-weight: 400;
+
+        @media #{$breakpoint-md} {
+            max-width: 600px;
+        }
+
+    }
+}

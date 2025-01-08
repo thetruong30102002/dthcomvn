@@ -1,0 +1,122 @@
+﻿<!DOCTYPE html>
+<html lang="en" class="font-res">
+<head>
+    <meta charset="UTF-8">
+    <title>Hire DTH Group</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css"
+          integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+<div id="bd" class="container-fluid pad-none">
+    <header>
+        <div class="header-logo">
+            <div class="logo-img">
+                <img src="assets/image/logo/logo dth-01/logo dth-01.png" />
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="layoutPlus1 container-fluid">
+            <div class="plusContent" >
+                <div class="titleLayoutPlus">
+                    <h2>NHÂN VIÊN KINH DOANH MEDIA</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-8 col-12">
+                        <div class="plusTextContent">
+                            <div class="modulContent">
+                                <h3>MÔ TẢ</h3>
+                                <h3>Vị trí: Nhân viên kinh doanh Media</h3>
+                                <ul>
+                                    <li><b>Nơi làm việc:</b> 191 Trần Não, Quận 2, </li>
+                                    <li><b>Số lượng tuyển:</b> 10 </li>
+                                    <li><b>TP.HCM Mức lương:</b> Cạnh tranh</li>
+                                </ul>
+                                <h4>Mô tả công việc:</h4>
+                                <ul>
+                                    <li> Tìm kiếm, khai thác và phát triển nguồn khách hàng.</li>
+                                    <li> Đàm phán và tiến hành kí kết hợp đồng, giải đáp thắc mắc, hỗ trợ khách hàng trong quá trình thực hiện hợp đồng.</li>
+                                    <li> Duy trì và chăm sóc khách hàng cũ, khách hàng hiện tại và khách hàng tiềm năng của công ty.Làm hài lòng khách hàng về dịch vụ, chất lượng, giá cả để hoàn thành chỉ tiêu doanh số được giao.</li>
+                                    <li> Công việc cụ thể được trao đổi thêm khi phỏng vấn.</li>
+                                </ul>
+                            </div>
+                            <div class="modulContent">
+                                <h3>YÊU CẦU</h3>
+                                <ul>
+                                    <li> Tốt nghiệp cao đẳng chính quy trở lên.</li>
+                                    <li> Tuổi từ 20 trở lên, ngoại hình ưa nhìn.</li>
+                                    <li> Ưu tiên có kinh nghiệm làm kinh doanh trong ngành truyền thông/quảng cáo</li>
+                                    <li> Có ý thức tốt trong việc chăm sóc khách hàng.</li>
+                                    <li> Ưu tiên những ứng viên thông thạo tiếng Anh.</li>
+                                </ul>
+                            </div>
+                            <div class="modulContent">
+                                <h3>QUYỀN LỢI</h3>
+                                <ul>
+                                    <li> Được làm việc trong môi trường năng động, chuyên nghiệp</li>
+                                    <li> Được đào tạo kỹ càng về kĩ năng mềm, kỹ năng kinh doanh;và các kiến thức chuyên sâu trong ngành quảng cáo và truyền thông.</li>
+                                    <li> Được hưởng các chế độ, bảo hiểm, nghỉ lễ, ký kết hợp đồng lao động theo quy định hiện hành.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-12">
+                        <!--layout6-->
+                        <div class="sendInfoPlus">
+                            <div class="infoPlusContent">
+                                <form action="#">
+                                    <div class="fieldContentPlus">
+                                        <label for="nameInfo">Tên*</label>
+                                        <input id="nameInfo" type="text">
+                                    </div>
+                                    <div class="fieldContentPlus">
+                                        <label for="famiNameInfo">Họ*</label>
+                                        <input id="famiNameInfo" type="text">
+                                    </div>
+                                    <div class="fieldContentPlus">
+                                        <label for="emailInfo">Email*</label>
+                                        <input id="emailInfo" type="email">
+                                    </div>
+                                    <div class="fieldContentPlus">
+                                        <label for="phoneInfo">Điện thoại*</label>
+                                        <input id="phoneInfo" type="tel">
+                                    </div>
+                                    <div class="fieldContentPlus">
+                                        <label for="cvInfo">Upload CV*</label>
+                                        <span>Gửi CV của bạn tới DTH Group</span>
+                                        <input style="display: none" id="cvInfo" type="file" >
+                                    </div>
+                                    <button type="submit">Gửi thông tin</button>
+                                </form>
+                            </div>
+                        </div>
+                        <!--end layout6-->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <footer>
+        <div class="footerContents container-fluid">
+            <div class="container-fluid">
+                <div class="footerLogo">
+                    <img src="assets/image/logo/logodth-02/logo dth-01.png" />
+                </div>
+            </div>
+            <div class="footerTextContent container-fluid">
+                <p class="address">Số 75, đường Hoàng Mai, Phường Hoàng Văn Thụ, Quận Hoàng Mai , Quận Hoàng Mai, Hà Nội </p>
+                <p class="phone">(024) 66 586 586</p>
+                <p class="email">info@dthcorp.com</p>
+            </div>
+        </div>
+    </footer>
+</div>
+</body>
+</html>

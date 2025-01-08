@@ -1,0 +1,18 @@
+/* :: Counter Area CSS */
+
+.counter-up-area {
+    .counter-header-area {
+        .icon {
+            margin-right: 20px;
+            font-size: 36px;
+            color: $primary;
+        }
+    }
+
+    .counter-body-text {
+        h5 {
+            font-size: 16px;
+            font-weight: 400;
+        }
+    }
+}

@@ -1,0 +1,138 @@
+/* :: Team Area CSS */
+
+.our-team-area {
+    .single-team-content {
+        position: relative;
+        z-index: 1;
+
+        .single-team-thumb {
+            position: relative;
+            z-index: 1;
+        }
+
+        .single-team-text {
+            position: absolute;
+            z-index: 99;
+            bottom: -40px;
+            left: 0;
+            right: 0;
+            margin-left: 15px;
+            margin-right: 15px;
+            background-color: $white;
+            display: inline-block;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            padding-right: inherit;
+            padding-left: inherit;
+            @include transition-duration(500ms);
+
+            h6 {
+                font-size: 18px;
+                margin-bottom: 5px;
+            }
+
+            p {
+                font-size: 14px;
+                color: $primary;
+            }
+
+            .icon-area {
+                a {
+                    color: $text;
+                    margin: 0px 7px;
+                    font-size: 15px;
+                    @include transition-duration(500ms);
+
+                    &:hover {
+                        color: $primary;
+                    }
+                }
+            }
+        }
+
+        &:hover {
+            .single-team-text {
+                bottom: 0;
+            }
+        }
+    }
+
+    .owl-dots {
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+
+    .owl-dot {
+        height: 10px;
+        width: 10px;
+        display: inline-block;
+        border: 2px solid $primary;
+        margin-top: 30px;
+        margin-right: 5px;
+        margin-left: 5px;
+
+        &.active {
+            background-color: $primary;
+            border-color: $primary;
+        }
+    }
+}
+
+.out-team-area-single {
+    .single-team-text {
+        .member-info {
+            h5 {
+                font-size: 22px;
+                margin-bottom: 5px;
+            }
+
+            p {
+                font-size: 14px;
+                color: $primary;
+            }
+        }
+
+        p {
+            font-size: 16px;
+            font-weight: 400;
+        }
+
+        .icon-area {
+            a {
+                font-size: 16px;
+                margin-right: 10px;
+                @include transition-duration(500ms);
+                color: $text;
+
+                &:hover {
+                    color: $primary;
+                }
+            }
+        }
+    }
+
+    .single-team-content {
+        .single-team-text {
+            h6 {
+                font-size: 18px;
+                text-transform: uppercase;
+                margin-top: 20px;
+                margin-bottom: 5px;
+            }
+
+            p {
+                font-size: 13px;
+                color: $primary;
+                margin-bottom: 8px;
+            }
+
+            span {
+                font-size: 15px;
+                color: $text;
+                margin-bottom: 20px;
+                display: inline-block;
+            }
+        }
+    }
+}

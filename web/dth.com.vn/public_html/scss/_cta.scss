@@ -1,0 +1,44 @@
+/* :: Call to action CSS */
+
+.our-call-to-area {
+    .call-to--text-area {
+        h3 {
+            font-size: 40px;
+            color: $primary;
+            line-height: 1.2;
+            margin-bottom: 15px;
+        }
+
+        p {
+            color: $heading;
+            font-size: 16px;
+        }
+
+        h6 {
+            font-size: 15px;
+            text-transform: uppercase;
+            color: $hover;
+            margin-bottom: 5px;
+        }
+
+        span {
+            font-size: 14px;
+            text-transform: capitalize;
+            font-weight: 600;
+        }
+    }
+}
+
+#particles-js {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+#particles-js canvas.particles-js-canvas-el {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    z-index: -1;
+}

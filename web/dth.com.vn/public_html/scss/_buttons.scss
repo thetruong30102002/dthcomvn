@@ -1,0 +1,173 @@
+/* :: Buttons CSS */
+
+.btn {
+    &:focus {
+        box-shadow: none;
+    }
+}
+
+.construm-btn {
+    position: relative;
+    z-index: 1;
+    height: 46px;
+    line-height: 46px;
+    font-size: 14px;
+    font-weight: 600;
+    display: inline-block;
+    letter-spacing: 1px;
+    padding: 0 40px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    background-color: $primary;
+    color: $white;
+    border-radius: 23px;
+    @include transition-duration(500ms);
+
+    i {
+        margin-left: 4px;
+    }
+
+    &.btn-2 {
+        color: $heading;
+    }
+
+    &:focus,
+    &:hover {
+        font-weight: 600;
+        background-color: $hover;
+        color: $white;
+    }
+}
+
+
+.construm-btn-btn-2 {
+    position: relative;
+    z-index: 1;
+    height: 46px;
+    line-height: 46px;
+    font-size: 14px;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0 25px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: $white;
+    border-radius: 23px;
+    @include transition-duration(500ms);
+
+    i {
+        margin-left: 4px;
+    }
+
+    &.btn-2 {
+        color: $heading;
+    }
+
+    &:focus,
+    &:hover {
+        font-weight: 600;
+        @include box-shadow($box-shadow);
+        background-color: $primary;
+        color: $white;
+    }
+}
+
+.construm-btn-btn-white {
+    position: relative;
+    z-index: 1;
+    height: 46px;
+    padding: 0 25px;
+    border: 2px solid $white;
+    color: $white;
+    border-radius: 23px;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 42px;
+    font-weight: 600;
+    @include transition-duration(500ms);
+
+    i {
+        margin-left: 3px;
+    }
+
+    &:hover,
+    &:focus {
+        background-color: $primary;
+        border-color: $primary;
+        color: $white;
+    }
+}
+
+.construm-btn-white-2 {
+    position: relative;
+    z-index: 1;
+    height: 46px;
+    padding: 0 25px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    color: $white;
+    border-radius: 23px;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 42px;
+    font-weight: 600;
+    @include transition-duration(500ms);
+
+    i {
+        margin-left: 3px;
+    }
+
+    &:hover,
+    &:focus {
+        background-color: $primary;
+        border-color: $primary;
+        color: $white;
+    }
+}
+
+.construm-gb-btn {
+    color: $white;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 44px;
+    padding: 0 25px;
+    min-width: 180px;
+    height: 46px;
+    @include transition-duration(500ms);
+    position: relative;
+    z-index: 1;
+    border-radius: 23px;
+    background-position: 100% 100%;
+    background: #3264f5;
+    background: -moz-linear-gradient(left, #3264f5 2%, #7202bb 82%);
+    background: -webkit-linear-gradient(left, #3264f5 2%, #7202bb 82%);
+    background: linear-gradient(to right, #3264f5 2%, #7202bb 82%);
+
+    &::after {
+        @include transition-duration(500ms);
+        position: absolute;
+        width: calc(100% - 4px);
+        height: calc(100% - 4px);
+        border-radius: 23px;
+        top: 2px;
+        left: 2px;
+        right: 2px;
+        bottom: 2px;
+        background-color: #151853;
+        content: '';
+        z-index: -1;
+    }
+
+    &:hover,
+    &:focus {
+        color: $white;
+
+        &::after {
+            opacity: 0;
+        }
+    }
+}

@@ -1,0 +1,44 @@
+/* :: Feature  CSS */
+
+.feature-area {
+    @include justify-content-between;
+
+    .single-feature-area {
+        border-right: 1px solid $border;
+        border-bottom: 1px solid $border;
+        padding: 60px;
+
+        @media #{$breakpoint-xs} {
+            border-right: none;
+        }
+
+        @media #{$breakpoint-md} {
+            padding: 50px 20px;
+        }
+
+        .icon {
+            font-size: 22px;
+            height: 60px;
+            width: 60px;
+            border-radius: 50%;
+            line-height: 60px;
+            text-align: center;
+            display: inline-block;
+            color: $white;
+            background-color: $hover;
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            font-size: 22px;
+        }
+
+        p {
+            margin-bottom: 0;
+        }
+    }
+}
+
+.form-control {
+    font-size: 14px;
+}

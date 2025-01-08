@@ -1,0 +1,89 @@
+/* :: Project Area  CSS */
+
+.our-project-area {
+    background-color: $bg-gray;
+
+    .our-project-area-text {
+        @media #{$breakpoint-xs} {
+           margin-bottom: 50px;
+        }
+
+        h2 {
+            font-size: 24px;
+            text-transform: uppercase;
+            margin-bottom: 15px;
+        }
+
+        p {
+            margin-bottom: 0;
+        }
+
+        @media #{$breakpoint-md} {
+            margin-bottom: 50px;
+        }
+    }
+
+    .single-project-slider {
+        .project-thumb {
+            position: relative;
+            z-index: 1;
+        }
+
+        .project-hover {
+            position: absolute;
+            z-index: 2;
+            background: #3264f5;
+            background: -moz-linear-gradient(left, #3264f5 2%, #7202bb 82%);
+            background: -webkit-linear-gradient(left, #3264f5 2%, #7202bb 82%);
+            background: linear-gradient(to right, #3264f5 2%, #7202bb 82%);
+            top: 0;
+            opacity: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            @include transition-duration(600ms);
+
+            .project-text {
+                padding: 20px;
+
+                h5 {
+                    font-size: 16px;
+                    color: $white;
+                }
+
+                p {
+                    font-size: 13px;
+                    color: $white;
+                }
+            }
+        }
+
+        &:hover {
+            .project-hover {
+                opacity: 0.85;
+            }
+        }
+
+    }
+
+    .owl-nav {
+        margin-top: 20px;
+    }
+
+    .owl-prev,
+    .owl-next {
+        display: inline-block;
+        background-color: rgba(218, 220, 241, 0.50);
+        color: #555;
+        height: 25px;
+        width: 25px;
+        text-align: center;
+        line-height: 25px;
+        font-size: 16px;
+
+    }
+
+    .owl-next {
+        margin-left: 10px;
+    }
+}

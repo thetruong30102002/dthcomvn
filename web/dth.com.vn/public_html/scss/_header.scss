@@ -1,0 +1,145 @@
+/* :: Header CSS */
+
+.header-area {
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    @include transition-duration(500ms);
+    background-color: $primary;
+
+    &.sticky {
+        background-color: $primary;
+    }
+}
+
+.classy-navbar .nav-brand {
+    width: 70px;
+    font-size: 0;
+}
+
+.classy-navbar .nav-brand:focus,
+.classy-navbar .nav-brand:hover {
+    font-size: 0;
+    font-weight: 600;
+}
+
+.classy-nav-container {
+    background-color: transparent;
+    padding: 0;
+
+    .classy-navbar {
+        @include transition-duration(500ms);
+        height: 70px;
+        padding: 0;
+
+        .nav-brand {
+            @media #{$breakpoint-xs} {
+                max-width: 90px;
+                margin-right: 15px;
+            }
+        }
+
+        .classynav ul li {
+            a {
+                font-size: 16px;
+                text-transform: uppercase;
+                color: $white;
+                font-weight: 600;
+                padding: 0 20px;
+
+                &:hover,
+                &:focus {
+                    color: $hover;
+                }
+
+                @media #{$breakpoint-lg} {
+                    font-size: 14px;
+                }
+
+                @media #{$breakpoint-md} {
+                    font-size: 14px;
+                    color: $heading;
+
+                    &:hover,
+                    &:focus {
+                        color: $hover;
+                    }
+                }
+
+                @media #{$breakpoint-xs} {
+                    font-size: 14px;
+                    color: $heading;
+
+                    &:hover,
+                    &:focus {
+                        color: $hover;
+                    }
+                }
+            }
+
+            &.cn-dropdown-item,
+            &.megamenu-item {
+                ul li {
+                    a {
+                        font-size: 14px;
+                        text-transform: uppercase;
+                        height: 42px;
+                        line-height: 42px;
+                        padding: 0 30px;
+                        color: $heading;
+
+                        &:focus,
+                        &:hover {
+                            color: $hover;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.classynav ul li {
+    &.active {
+        a {
+            position: relative;
+            z-index: 1;
+        }
+    }
+}
+
+.classynav ul li.has-down > a::after,
+.classynav ul li.has-down.active > a::after,
+.classynav ul li.megamenu-item > a::after {
+    color: $white;
+}
+
+.breakpoint-off .classynav ul li .dropdown,
+.breakpoint-off .classynav ul li .megamenu {
+    width: 210px;
+    @include box-shadow($box-shadow);
+    border-radius: 6px;
+}
+
+.breakpoint-off .classynav ul li .megamenu {
+    width: 100%;
+}
+
+.classy-navbar-toggler .navbarToggler span {
+    background-color: $heading;
+}
+
+.classy-navbar-toggler .navbarToggler span {
+    background-color: $white;
+}
+
+.breakpoint-on .classy-navbar .classy-menu {
+    @media #{$breakpoint-xs} {
+        width: 250px;
+    }
+}
+
+@media #{$breakpoint-xs} {
+    max-width: 90px;
+    margin-right: 15px;
+}

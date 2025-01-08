@@ -1,0 +1,477 @@
+﻿<!DOCTYPE html>
+<html lang="en" class="font-res">
+<head>
+    <meta charset="UTF-8">
+    <title>Hire DTH Group</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css"
+          integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+<div id="bd" class="container-fluid pad-none">
+    <header>
+        <div class="header-logo">
+            <div class="logo-img">
+                <img src="assets/image/logo/logo dth-01/logo dth-01.png"/></div>
+        </div>
+        <div class="header-tag">
+            <a href="#" class="a-black a-non-underline">Giới thiệu DTH Group</a>
+            <a href="#sign" class="a-black a-non-underline">Tuyển dụng</a>
+        </div>
+        <div class="header-slogan">
+            <div class="slogan-content">
+                <h1>VỚI DTH GROUP, CÔNG VIỆC LÀ ĐAM MÊ!</h1>
+                <p>
+                    Bạn yêu thích môi trường trẻ trung và năng động? Hãy tham gia vào đại gia đình DTH và khám phá ngay!
+                </p>
+                <a href="#sign" class="a-non-underline">
+                    CÁC VỊ TRÍ ĐANG TUYỂN
+                </a>
+            </div>
+        </div>
+    </header>
+    <section>
+        <!--layout1-->
+        <div class="layoutCulture container-fluid">
+            <div class="titleLayout">
+                <h2>VĂN HOÁ DTH</h2>
+                <div class="dash"></div>
+            </div>
+            <div class="cultureContents container-fluid">
+                <div class="row topRow">
+                    <div class="col-lg-4 topRow1">
+                        <div class="row">
+                            <div class="col-lg-4 cultureImgContent col-3">
+                                <img src="assets/image/layout/layoutCulture/businessman/businessman.png"/>
+                            </div>
+                            <div class="col-lg-8 col-9">
+                                <h3>KHÁCH HÀNG</h3>
+                                <p>Với phương châm “Sự hài lòng của khách hàng là thành công của công ty”, DTH Group luôn đặt khách hàng là tôn chỉ hoạt động. tất cả các dịch vụ và họat động đều nhằm mang đến lợi ích lớn nhất cho khách hàng. DTH mong muốn thiết lập mối quan hệ bền vững với khách hàng và đối tác dựa trên sự tin tưởng và cùng nhau phát triển.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 topRow2" >
+                        <div class="row">
+                            <div class="col-lg-4 cultureImgContent col-3">
+                                <img src="assets/image/layout/layoutCulture/edit/edit.png"/>
+                            </div>
+                            <div class="col-lg-8 col-9">
+                                <h3>TRÁCH NHIỆM</h3>
+                                <p>Tất cả nhân viên DTH Group đều làm việc tận tâm với tinh thần trách nhiệm cao nhất: trách nhiệm với công việc, trách nhiệm với khách hàng, trách nhiệm với bản thân.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 topRow3" >
+                        <div class="row">
+                            <div class="col-lg-4 cultureImgContent col-3">
+                                <img src="assets/image/layout/layoutCulture/heart/heart.png"/>
+                            </div>
+                            <div class="col-lg-8 col-9">
+                                <h3>TRUNG THỰC</h3>
+                                <p>Luôn trung thực, minh bạch trong tất cả các hoạt động của công ty cũng như trong các mối quan hệ với khách hàng, đồng nghiệp, lãnh đạo…</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row botRow">
+                    <div class="col-lg-6 botRow1" >
+                        <div class="row">
+                            <div class="col-lg-4 cultureImgContent col-3">
+                                <img src="assets/image/layout/layoutCulture/sticker/sticker.png" />
+                            </div>
+                            <div class="col-lg-8 col-9">
+                                <h3>ĐỔI MỚI</h3>
+                                <p>DTH Group không ngừng học hỏi từ khách hàng, đối tác và từ chính những đồng nghiệp để tránh suy nghĩ theo lối mòn, luôn nỗ lực dẫn đầu về công nghệ, sản phẩm và dịch vụ mới.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 botRow2">
+                        <div class="row">
+                            <div class="col-lg-4 cultureImgContent col-3">
+                                <img src="assets/image/layout/layoutCulture/idea/idea.png"/>
+                            </div>
+                            <div class="col-lg-8 col-9">
+                                <h3>SÁNG TẠO</h3>
+                                <p>Sáng tạo chính là sức sống của công ty. Vì vậy chúng tôi luôn trân trọng và tôn vinh từ những ý tưởng nhỏ nhất và xây dựng một môi trường khuyến khích sáng tạo để mỗi thành viên gia đình DHT thỏa sức sáng tạo mỗi ngày.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--endlayout1-->
+        <!--layout2-->
+        <div class="layoutDepartment container-fluid ">
+            <div class="titleLayout">
+                <h2>PHÒNG BAN/ DỰ ÁN</h2>
+                <div class="dash"></div>
+            </div>
+            <div class="twoDepRow">
+                <div class="row">
+                    <div class="col-lg-6 pad-none-mobile">
+                        <div class="depContent">
+                            <div class="depImgContent">
+                                <img style="top: -115%;" src="assets/image/layout/layoutDepartment/1/1.png"/>
+                            </div>
+                            <div class="depTextContent">
+                                <h4>Phòng Marketing & SEO</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 pad-none-mobile">
+                        <div class="depContent">
+                            <div class="depImgContent">
+                                <img style="top: -15%;" src="assets/image/layout/layoutDepartment/2/2.png"/>
+                            </div>
+                            <div class="depTextContent">
+                                <h4>Phòng Kế toán</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="otherDepRow">
+                <div class="row">
+                    <div class="col-lg-4 pad-none-mobile">
+                        <div class="depContent">
+                            <div class="depImgContent">
+                                <img style="top: -5%;" src="assets/image/layout/layoutDepartment/3/3.png"/>
+                            </div>
+                            <div class="depTextContent">
+                                <h4>Phòng Kỹ thuật</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 pad-none-mobile">
+                        <div class="depContent">
+                            <div class="depImgContent">
+                                <img style="top: -15%;" src="assets/image/layout/layoutDepartment/4/4.png"/>
+                            </div>
+                            <div class="depTextContent">
+                                <h4>Phòng Kinh doanh</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 pad-none-mobile">
+                        <div class="depContent">
+                            <div class="depImgContent">
+                                <img style="top: -15%;" src="assets/image/layout/layoutDepartment/5/5.png"/>
+                            </div>
+                            <div class="depTextContent">
+                                <h4>Phòng Hành chính nhân sự</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 pad-none-mobile">
+                        <div class="depContent">
+                            <div class="depImgContent">
+                                <img style="top: -15%;" src="assets/image/layout/layoutDepartment/6/6.png"/>
+                            </div>
+                            <div class="depTextContent">
+                                <h4>Dự án Simthanlong.vn</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 pad-none-mobile">
+                        <div class="depContent">
+                            <div class="depImgContent">
+                                <img style="top: 1%; height:100%" src="assets/image/layout/layoutDepartment/7/7.png"/>
+                            </div>
+                            <div class="depTextContent">
+                                <h4>Dự án Sim.vn</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 pad-none-mobile">
+                        <div class="depContent">
+                            <div class="depImgContent">
+                                <img style="top: -65%;" src="assets/image/layout/layoutDepartment/8/8.png"/>
+                            </div>
+                            <div class="depTextContent">
+                                <h4>Dự án Exito</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 pad-none-mobile">
+                        <div class="depContent">
+                            <div class="depImgContent">
+                                <img style="top: -15%;" src="assets/image/layout/layoutDepartment/9/9.png"/>
+                            </div>
+                            <div class="depTextContent">
+                                <h4>Dự án SuperRenders Farm</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 pad-none-mobile">
+                        <div class="depContent">
+                            <div class="depImgContent">
+                                <img style="top: 0%;height: fit-content" src="assets/image/layout/layoutDepartment/10/10.png"/>
+                            </div>
+                            <div class="depTextContent">
+                                <h4>Dự án Phần mềm Solid</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 pad-none-mobile">
+                        <div class="depContent">
+                            <div class="depImgContent">
+                                <img style="top: -15%;" src="assets/image/layout/layoutDepartment/11/11.png"/>
+                            </div>
+                            <div class="depTextContent">
+                                <h4>Dự án Remax</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--endlayout2-->
+        <!--layout3-->
+        <div class="layoutReasons container-fluid">
+            <div class="titleLayout">
+                <h2>CHÚNG TÔI LÀ DTH GROUP</h2>
+                <div class="dash"></div>
+            </div>
+            <div class="row reasonRow">
+                <div class="col-lg-6">
+                    <div class="reasonContent">
+                        <div class="reasonImgContent">
+                            <img src="assets/image/layout/layoutReasons/1/1.png"/>
+                        </div>
+                        <div class="reasonTextContent">
+                            <h4>Môi trường làm việc</h4>
+                            <p>Môi trường làm việc chuyên nghiệp, trẻ trung và năng động, cơ hội thăng tiến cao.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 ">
+                    <div class="reasonContent float-right">
+                        <div class="reasonImgContent">
+                            <img src="assets/image/layout/layoutReasons/2/2.png"/>
+                        </div>
+                        <div class="reasonTextContent">
+                            <h4>Chế độ phúc lợi</h4>
+                            <p>Được hưởng đầy đủ các chế độ BHXH; nghỉ lễ, tết theo quy định của nhà nước, du lịch hàng năm.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="reasonContent">
+                        <div class="reasonImgContent">
+                            <img src="assets/image/layout/layoutReasons/3/3.png"/>
+                        </div>
+                        <div class="reasonTextContent">
+                            <h4>Đào tạo</h4>
+                            <p>Thường xuyên được tham gia các buổi đào tạo nhằm nâng cao chuyên môn và hoàn thiện các kỹ năng.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 ">
+                    <div class="reasonContent float-right">
+                        <div class="reasonImgContent">
+                            <img src="assets/image/layout/layoutReasons/4/4.png"/>
+                        </div>
+                        <div class="reasonTextContent">
+                            <h4>Hoạt động ngoại khóa</h4>
+                            <p>Tham gia miễn phí các hoạt động thể thao hàng tuần như: bóng đá, cầu lông, văn nghệ…tham gia các hoạt động xã hội…..</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--end layout3-->
+        <!--layout4-->
+        <div class="layoutImageDTH">
+            <div class="titleLayout">
+                <h2>CHÚNG TÔI LÀ DTH GROUP</h2>
+                <div class="dash"></div>
+            </div>
+            <div class="row imageDTHRow">
+                <div class="col-lg-4">
+                    <div class="dthImgContent">
+                        <img src="assets/image/layout/layoutImageDTH/1/1.png"/>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="dthImgContent">
+                        <img src="assets/image/layout/layoutImageDTH/2/2.png"/>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="dthImgContent">
+                        <img src="assets/image/layout/layoutImageDTH/3/3.png"/>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="dthImgContent">
+                        <img src="assets/image/layout/layoutImageDTH/4/4.png"/>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="dthImgContent">
+                        <img src="assets/image/layout/layoutImageDTH/5/5.png"/>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="dthImgContent">
+                        <img src="assets/image/layout/layoutImageDTH/1/1.png"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--end layout4-->
+        <!--layout5-->
+        <div id="sign" class="layoutHireDTH container-fluid">
+            <div class="titleLayout">
+                <h2>DTH GROUP TUYỂN DỤNG</h2>
+                <div class="dash"></div>
+            </div>
+            <div class="hireContents">
+                <div class="row hireDTHRow">
+                    <div class="col-lg-4 col-12">
+                        <p class="tag1Hire">Nhân viên kinh doanh media</p>
+                    </div>
+                    <div class="col-lg-4 col-6">
+                        <p class="tag2Hire">Media 3D</p>
+                    </div>
+                    <div class="col-lg-4 col-6">
+                        <a class="a-non-underline tag3Hire" href="plusPage.html">Ứng Tuyển</a>
+                    </div>
+                </div>
+                <div class="row hireDTHRow">
+                    <div class="col-lg-4 col-12">
+                        <p class="tag1Hire">Nhân viên kinh doanh media</p>
+                    </div>
+                    <div class="col-lg-4 col-6">
+                        <p class="tag2Hire">Media 3D</p>
+                    </div>
+                    <div class="col-lg-4 col-6">
+                        <a class="a-non-underline tag3Hire" href="plusPage.html">Ứng Tuyển</a>
+                    </div>
+                </div>
+                <div class="row hireDTHRow">
+                    <div class="col-lg-4 col-12">
+                        <p class="tag1Hire">Nhân viên kinh doanh media</p>
+                    </div>
+                    <div class="col-lg-4 col-6">
+                        <p class="tag2Hire">Media 3D</p>
+                    </div>
+                    <div class="col-lg-4 col-6">
+                        <a class="a-non-underline tag3Hire" href="plusPage.html">Ứng Tuyển</a>
+                    </div>
+                </div>
+                <div class="row hireDTHRow">
+                    <div class="col-lg-4 col-12">
+                        <p class="tag1Hire">Nhân viên kinh doanh media</p>
+                    </div>
+                    <div class="col-lg-4 col-6">
+                        <p class="tag2Hire">Media 3D</p>
+                    </div>
+                    <div class="col-lg-4 col-6">
+                        <a class="a-non-underline tag3Hire" href="plusPage.html">Ứng Tuyển</a>
+                    </div>
+                </div>
+                <div class="row hireDTHRow">
+                    <div class="col-lg-4 col-12">
+                        <p class="tag1Hire">Nhân viên kinh doanh media</p>
+                    </div>
+                    <div class="col-lg-4 col-6">
+                        <p class="tag2Hire">Media 3D</p>
+                    </div>
+                    <div class="col-lg-4 col-6">
+                        <a class="a-non-underline tag3Hire" href="plusPage.html">Ứng Tuyển</a>
+                    </div>
+                </div>
+                <div class="row hireDTHRow">
+                    <div class="col-lg-4 col-12">
+                        <p class="tag1Hire">Nhân viên kinh doanh media</p>
+                    </div>
+                    <div class="col-lg-4 col-6">
+                        <p class="tag2Hire">Media 3D</p>
+                    </div>
+                    <div class="col-lg-4 col-6">
+                        <a class="a-non-underline tag3Hire" href="plusPage.html">Ứng Tuyển</a>
+                    </div>
+                </div>
+                <div class="row hireDTHRow">
+                    <div class="col-lg-4 col-12">
+                        <p class="tag1Hire">Nhân viên kinh doanh media</p>
+                    </div>
+                    <div class="col-lg-4 col-6">
+                        <p class="tag2Hire">Media 3D</p>
+                    </div>
+                    <div class="col-lg-4 col-6">
+                        <a class="a-non-underline tag3Hire" href="plusPage.html">Ứng Tuyển</a>
+                    </div>
+                </div>
+                <div class="row hireDTHRow">
+                    <div class="col-lg-4 col-12">
+                        <p class="tag1Hire">Nhân viên kinh doanh media</p>
+                    </div>
+                    <div class="col-lg-4 col-6">
+                        <p class="tag2Hire">Media 3D</p>
+                    </div>
+                    <div class="col-lg-4 col-6">
+                        <a class="a-non-underline tag3Hire" href="plusPage.html">Ứng Tuyển</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--end layout5-->
+        <!--layout6-->
+        <div class="layoutSendInfo container-fluid">
+            <div class="titleLayout">
+                <h2>BẠN MUỐN ĐỒNG HÀNH CÙNG DTH GROUP TRONG TƯƠNG LAI?</h2>
+                <div class="dash"></div>
+            </div>
+            <div class="infoContent container-fluid">
+                <form action="#">
+                    <div class="fieldContent">
+                        <label for="nameInfo">Tên*</label>
+                        <input id="nameInfo" type="text">
+                    </div>
+                    <div class="fieldContent">
+                        <label for="famiNameInfo">Họ*</label>
+                        <input id="famiNameInfo" type="text">
+                    </div>
+                    <div class="fieldContent">
+                        <label for="emailInfo">Email*</label>
+                        <input id="emailInfo" type="email">
+                    </div>
+                    <div class="fieldContent">
+                        <label for="phoneInfo">Điện thoại*</label>
+                        <input id="phoneInfo" type="tel">
+                    </div>
+                    <div class="fieldContent">
+                        <label for="cvInfo">Upload CV*</label>
+                        <span>Gửi CV của bạn tới DTH Group</span>
+                        <input style="display: none" id="cvInfo" type="file" >
+                    </div>
+                    <button type="submit">Gửi thông tin</button>
+                </form>
+            </div>
+        </div>
+        <!--end layout6-->
+    </section>
+    <footer>
+        <div class="footerContents container-fluid">
+            <div class="container-fluid">
+                <div class="footerLogo">
+                    <img src="assets/image/logo/logodth-02/logo dth-01.png" />
+                </div>
+            </div>
+            <div class="footerTextContent container-fluid">
+                <p class="address">Số 75, đường Hoàng Mai, Phường Hoàng Văn Thụ, Quận Hoàng Mai , Quận Hoàng Mai, Hà Nội </p>
+                <p class="phone">(024) 66 586 586</p>
+                <p class="email">info@dthcorp.com</p>
+            </div>
+        </div>
+    </footer>
+</div>
+</body>
+</html>
